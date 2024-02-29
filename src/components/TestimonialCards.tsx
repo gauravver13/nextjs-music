@@ -33,7 +33,7 @@ const testimonials = [
       name: "Natalie Brown",
       title: "Adult Piano Student"
     }
-  ]
+]
   
 
 function MusicSchoolTestimonial() {
@@ -53,7 +53,7 @@ function MusicSchoolTestimonial() {
             </div>
         </div>
       )
-    
+      
 }
 
 export default MusicSchoolTestimonial
