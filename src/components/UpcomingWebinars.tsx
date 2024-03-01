@@ -67,10 +67,12 @@ function UpcomingWebinars() {
             </div>
 
             <div className='mt-10 text-center'>
-                <Link href={"/"}
-                className="px-4 py-2 rounded border border-neutral-600 text-neutral-700 bg-white hover:bg-gray-100 transition duration-200"
-                >
-                    View All Webinars
+                <Link href={"/"}>
+                    <button
+                    type="submit"
+                    className="px-6 py-2 rounded-lg bg-teal-500 text-white font-medium hover:bg-teal-600 focus:outline-none focus:ring-2 focus:ring-teal-500 focus:ring-offset-2"
+                    >View All Webinars
+                    </button>
                 </Link>
             </div>
         </div>

@@ -42,7 +42,7 @@ function page() {
           </button>
         </form>
       </div>
-      <Meteors number={20} /> 
+      <Meteors number={12} /> 
       <BackgroundBeams />
     </div>
   )
