@@ -45,8 +45,6 @@ function page() {
       <Meteors number={20} /> 
       <BackgroundBeams />
     </div>
-
-
   )
 }
 
