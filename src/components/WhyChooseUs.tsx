@@ -49,7 +49,7 @@ const musicSchoolContent = [
     content: (
       <div className="h-full w-full  flex items-center justify-center text-white">
         <Image
-          src="gallery/streamlineSheet.jpg"
+          src="/gallery/streamlineSheet.jpg"
           width={300}
           height={300}
           className="h-full w-full object-cover"
@@ -64,12 +64,13 @@ const musicSchoolContent = [
       "Get inspired and overcome creative roadblocks with real-time feedback and collaborative brainstorming. Our platform fosters a dynamic learning environment where you can exchange ideas, receive constructive feedback, and explore new musical possibilities alongside your peers and instructors.",
     content: (
       <div className="h-full w-full  flex items-center justify-center text-white">
-        <Image
+        <img
           src="/gallery/spark.jpg"
           width={300}
           height={300}
           className="h-full w-full object-cover"
           alt="Spark Image"
+          onError={() => console.log("Image failed to load")}
         />
       </div>
     ),
